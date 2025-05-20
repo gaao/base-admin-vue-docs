@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/base-admin-vue-docs/',
   title: "Base-Admin-Vue",
   description: "项目文档+mock接口",
   ignoreDeadLinks: [
