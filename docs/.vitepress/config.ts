@@ -4,6 +4,11 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Base-Admin-Vue",
   description: "项目文档+mock接口",
+  ignoreDeadLinks: [
+    'http://localhost:3000/',
+    'http://localhost:3000/api',
+    '/filetree',
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
