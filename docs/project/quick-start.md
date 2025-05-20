@@ -2,7 +2,7 @@
 
 ## 项目介绍
 
-Base Admin Vue 是一个基于 Vue 3 + TypeScript + Vite 的后台管理系统基本模板，具有以下特点：
+[Base Admin Vue](https://github.com/gaao/base-admin-vue) 是一个基于 Vue 3 + TypeScript + Vite 的后台管理系统基本模板，具有以下特点：
 
 - 🚀 使用 Vue 3 + TypeScript + Vite 构建
 - 📦 集成 Ant Design Vue 组件库
