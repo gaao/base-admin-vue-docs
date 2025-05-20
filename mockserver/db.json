@@ -1,0 +1,121 @@
+{
+    "captcha": {
+        "captchaId": "abcd-efgh-ijkl",
+        "picture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAABQCAMAAAAQlwhOAAAA81BMVEUAAAAaT0geU0xOg3yo3daEubKh1s95rqckWVJOg3xuo5yJvreLwLkhVk8dUktckYodUktMgXqIvbYIPTYxZl9HfHVmm5QeU0w8cWpaj4hlmpNPhH1jmJEcUUqj2NE9cmtsoZqk2dIEOTJBdm8lWlNKf3hsoZoIPTaNwrsHPDVyp6AjWFGd0stKf3gaT0gJPjePxL2Sx8Cv5N10qaIwZV4dUktWi4RbkIlvpJ1ckYokWVKXzMUxZl8CNzB7sKlTiIEpXleKv7gOQzwcUUqb0MlFenOq39if1M0NQjs6b2ghVk9wpZ6Btq9jmJGn3NUKPzhil5ALAfqzAAAAAXRSTlMAQObYZgAABdBJREFUeJzsm3tL604Tx3fOH1qwUrwgliLVQ1GqUEEpUlpQ4Sgi1vf/ch7a3GZmZ7OzySZNeX7fA8c2zW7mk+/u7KWp+U+CfuNVdRCvqub0++sj/qOt6uCga8RH0kEv7x89cXBEft3VKHt0JBL7pOYN1oP/lLs7TPylqPQQvca8zyGRNaOHBw0xev315Sc+PDwUjz8/xyD+F1pgRN4peKlCHcaKwvsvkHg0GkW4LNVT9BpLxHhPvAVCeHW54+mpVWKikxMv8bu+Nu3osDtehcPv7yHENaNpVre60wJ4owtitoXbWyXx7gRxe3vXecEAPAG0c7F+jEqua5Td0G4VIxC/+n0l8XfJZ9fXlYkhV9UafLpk7/vmQ1Ps+7uUuHI4kBksHN/+q6vLS0788aEjrn1pSZABs8MRnee8RudwI4LEQo4FVLTMwFtr8CKgLaU2ngJruUlrdgAPBuXE37plXtMa2ocSFjCnp6cUKudM/wU5vEk1XeAd2sSZd0B5c9jiJLt/568vrGrDUs1n0NkBknmBvEgPU1OtRo3tNxcXNnFyli69f342RsyVDzkiUHGD7I9N0cOxw4D/Sdl9LYXRHm8REe2lCRDqAjR0oA6TCnsozdkOr9cisV/1l4XbkRd3Ut6DURcQ7ZfmomB6vR6xmF+2Kq9+W9glEqvMi44YIaNlLZh29R4Qi2MpPi81yppzoeCxryOKRQayuiFGFbFGylj8fNTbUdnRaGScd+4Rlb+SwzivDaIU8FGITSq5w872MGKFkbGPjwXx1ZVIfH5egxiQYYqTDc/JtCrJYXw279LoZRsOp5fJs6aHWFokON8afgekIdnxWRPCMyVjzDQxWBzzcRnU9qxTJYONK6Mbdx9uQBTWAEynUyjatOPaZF5gr4OF0cRuAvRjlMGrJGf1Nm2+iF3mh6ZFTKnTYjm28uNdOis1QUeQi8aZ0Vgu1GEIG/FjKepkk2LzcrlcijWlHVsoScdLcABNJhMBQ3CYZi3jWlI6iS3esUWcsGTvZN6szUs9kq3t7cnDVpOiAFtJ8asQi+vPtMZW/a7Waqska4O0aeVL0lJSY524ZC5d4Q5k+cl74gKVALsGFD1zWGwSviYtOmyZHJbDV3kT1RRbLBYoYMMj7JdFb59ePm6VOGzN4fRarVZyEnJo4brOpoZ+v5+PaHb7dPdR40nTVlWVVxFDY1YQ2CRc2tTS394FKVJpoukx2BWWYLFW0v5bHQEASljWR9hP1sGLQYzlOceIXxEYhpHcJdHkO1oonbBbUCSf7A+esxd/XeFVsji7UJBuVPUiDGNRoJ2rfC8IRWNnZvEi4X0YKoxf65sbBbHgcIqZDt+gdjhLgdYVQh2euVtLidbr9ZZ3ojzfcngA2GF6x8WsVnRsO8X19IHDbDZTuGvvg6+3jxtkk+EAJciDwSBty3Ied0y1imaCp+a9npZ4U2qmcFfa+U8eKAnmzS48KBaO9vXLdoAANe/Uc6PiBXneL0v6pqPWAyUFrCv3GufIRRwuzWdZVSgH1Am6nqStAfwx3+YQ56MosYkjDXa16oAdU+4Rha43PDemaNt0SVq42gVYj4ipJcBzQ+YmuIbQfrtroe+l+OqyOGk+n6P+LDq8L8rnYCC4ne7AgIG50/wu0d6rzqLfmeLZ93K5FDdTuqr7ex0x2d4gR5fkTnSdV+uwGTo8ZBsebfG+Nn2B4XDo3quT2nqzen1tnjj965h9GjhuOgKixnm9Oj5ul3j3+n/j3Xed7TqAlnV2tlfEq+ASj/xAR3ilb1JtrVahxPiRlC5J+CZVVASH6ynoN/ZlP2ajvG9V42la/t/YIyl+rpjq7a27xCEnu3jt3UDM63wsYG9Vvt/revBj9wrYl891qyjZWV7u019/mT342WaJOO9fDfH2/5+GImpZCt5EPz8NEOuG9QA5HisNAc3VBO94HHfK4XhwWNuUPXqpXYMZx55UxnSY6+UlAnH0SWWTUvH+LwAA////VUCt/EQ0vgAAAABJRU5ErkJggg==",
+        "expireTime": "${new Date(Date.now() + 60000).toISOString().slice(0, 19).replace('T', ' ')}"
+    },
+    "login": {
+        "admin": {
+            "token": "admin-token",
+            "expireTime": 1767196800000,
+            "userInfo": {
+                "id": 1,
+                "account": "admin",
+                "nickname": "管理员",
+                "avatar": "https://avatars.githubusercontent.com/u/1?v=4",
+                "role": "admin"
+            }
+        },
+        "user": {
+            "token": "user-token",
+            "expireTime": 1767196800000,
+            "userInfo": {
+                "id": 2,
+                "account": "user",
+                "nickname": "普通用户",
+                "avatar": "https://avatars.githubusercontent.com/u/2?v=4",
+                "role": "user"
+            }
+        }
+    },
+    "userInfo": {
+        "admin-token": {
+            "id": 1,
+            "account": "admin",
+            "nickname": "管理员",
+            "avatar": "https://avatars.githubusercontent.com/u/1?v=4",
+            "role": "admin"
+        },
+        "user-token": {
+            "id": 2,
+            "account": "user",
+            "nickname": "普通用户",
+            "avatar": "https://avatars.githubusercontent.com/u/2?v=4",
+            "role": "user"
+        }
+    },
+    "users": [
+        {
+            "id": 1,
+            "account": "admin",
+            "password": "123456",
+            "nickname": "管理员",
+            "avatar": "https://avatars.githubusercontent.com/u/1?v=4",
+            "role": "admin"
+        },
+        {
+            "id": 2,
+            "account": "user",
+            "password": "123456",
+            "nickname": "普通用户",
+            "avatar": "https://avatars.githubusercontent.com/u/2?v=4",
+            "role": "user"
+        }
+    ],
+    "menus": [
+        {
+            "id": 1,
+            "name": "Dashboard",
+            "path": "/dashboard",
+            "icon": "dashboard",
+            "parentId": 0
+        },
+        {
+            "id": 2,
+            "name": "用户管理",
+            "path": "/user",
+            "icon": "user",
+            "parentId": 0
+        },
+        {
+            "id": 3,
+            "name": "角色管理",
+            "path": "/role",
+            "icon": "team",
+            "parentId": 0
+        }
+    ],
+    "roles": [
+        {
+            "id": 1,
+            "name": "管理员",
+            "code": "admin",
+            "permissions": [
+                "*"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "普通用户",
+            "code": "user",
+            "permissions": [
+                "dashboard",
+                "profile"
+            ]
+        }
+    ],
+    "logs": [
+        {
+            "id": 1,
+            "userId": 1,
+            "action": "登录系统",
+            "ip": "127.0.0.1",
+            "createTime": "2024-01-01 12:00:00"
+        }
+    ],
+    "settings": {
+        "siteName": "后台管理系统",
+        "siteDescription": "一个基础的后台管理系统",
+        "copyright": "© 2024 Admin System"
+    }
+}
