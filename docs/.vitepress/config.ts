@@ -5,6 +5,7 @@ export default defineConfig({
   base: '/base-admin-vue-docs/',
   title: "Base-Admin-Vue",
   description: "项目文档+mock接口",
+  // 忽略检查的链接
   ignoreDeadLinks: [
     'http://localhost:3000/',
     'http://localhost:3000/api',

@@ -72,5 +72,5 @@ npm run docs:build
 ```bash
 # 部署到GitHub Pages
 git push origin main
-# 提交到 github 仓库的 main 分支会自动执行github actions的并发布到github pages
+# 提交到 github 仓库的 main 分支会自动执行github actions的打包部署并发布到github pages
 ```
