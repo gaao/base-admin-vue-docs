@@ -8,9 +8,9 @@
 首先，您需要下载本项目的代码。您可以通过以下命令来克隆项目:
 
 ```bash
-git clone  URL_ADDRESS.com/your-username/your-project.git
+git clone  https://github.com/gaao/base-admin-vue-docs.git
 # 切换到项目目录
-cd your-project
+cd base-admin-vue-docs
 
 ```
 
