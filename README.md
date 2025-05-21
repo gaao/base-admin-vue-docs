@@ -1,12 +1,8 @@
 # Base Admin Vue Mock
 
 这是[base-admin-vue](https://github.com/gaao/base-admin-vue)项目的文档，集成了 Mock 数据功能。
-可以通过 https://gaao.github.io/base-admin-vue-docs/ 查看在线文档。
 
-## 开发环境要求
-
-- Node.js
-- npm
+> 可以通过 https://gaao.github.io/base-admin-vue-docs/ 查看在线文档。
 
 ## 项目结构
 
@@ -43,11 +39,15 @@ base-admin-vue-mock+docs/
 └── package.json              # 项目配置文件
 ```
 
+## 开发环境要求
+
+- Node.js
+- npm
+
 ## 启动项目
 
 ```bash
 # 克隆项目
-git clone # 克隆项目
 git clone https://github.com/gaao/base-admin-vue-docs.git
 
 # 进入项目目录
@@ -70,7 +70,7 @@ npm run docs:build
 ## 项目部署
 
 ```bash
-# 部署到GitHub Pages
+# 部署到 GitHub Pages
 git push origin main
-# 提交到 github 仓库的 main 分支会自动执行github actions的打包部署并发布到github pages
+# 提交到 github 仓库的 main 分支会自动执行 github actions 的打包部署并发布到 github pages
 ```
