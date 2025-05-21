@@ -9,7 +9,6 @@ export default defineConfig({
   ignoreDeadLinks: [
     'http://localhost:3000/',
     'http://localhost:3000/api',
-    '/filetree',
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -25,7 +24,18 @@ export default defineConfig({
         text: '项目文档',
         items: [
           { text: '快速开始', link: '/project/quick-start' },
-          { text: '文件目录树', link: '/project/filetree' }
+          { text: '文件目录树', link: '/project/filetree' },
+          { text: '路由配置', link: '/project/router' },
+          { text: '菜单配置', link: '/project/menu' },
+          { text: '布局layout', link: '/project/layout' },
+          // { text: '面包屑配置', link: '/project/breadcrumb' },
+          // { text: '权限配置', link: '/project/permission' },
+          // { text: '项目配置', link: '/project/config' },
+          // { text: '组件', link: '/project/component' },
+          // { text: '全局样式', link: '/project/style' },
+          // { text: '全局变量', link: '/project/global' },
+          // { text: '全局方法', link: '/project/global-method' },
+          // { text: '全局指令', link: '/project/global-directive' },
         ]
       },
       {
