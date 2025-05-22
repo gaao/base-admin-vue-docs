@@ -113,10 +113,9 @@ const login = async (account: string, password: string) => {
 const routes = [
   ...coreRoutes, // 核心路由
   ...externalRoutes, // 外部路由
-  fallbackNotFoundRoute, // 404 路由
+  ...errPageRoutes, // 错误相关的路由
 ];
 ```
-
 ### 3. 多标签页
 
 系统支持多标签页功能，通过 src/stores/historytabs.ts 管理：
