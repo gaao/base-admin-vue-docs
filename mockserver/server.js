@@ -2,6 +2,7 @@ import path from 'path';
 import jsonServer from "json-server";
 import authRoutes from './routes/auth.js';
 import userRoutes from './routes/user.js';
+import menuRoutes from './routes/menu.js'; // 引入新的菜单路由
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -26,6 +27,7 @@ server.use((req, res, next) => {
 // 注册自定义路由（确保在token中间件之前）
 server.use('/api', authRoutes);
 server.use('/api', userRoutes);
+server.use('/api', menuRoutes); // 注册新的菜单路由
 
 // token校验中间件
 server.use((req, res, next) => {
@@ -37,7 +39,7 @@ server.use((req, res, next) => {
     return;
   }
 
-  const token = req.headers["x-Token"];
+  const token = req.headers["x-token"];
 
   if (!token) {
     return res.status(401).jsonp({

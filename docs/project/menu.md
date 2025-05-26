@@ -18,7 +18,7 @@ interface MenuItem extends RouteRecordRaw {
 interface MenuMeta {
   title: string; //	菜单项标题
   icon: string; // 菜单项图标
-  show: boolean; // 是否显示菜单
+  show: boolean; // 是否在菜单栏显示（仅仅是不显示，但是菜单还是存在的，可以手动跳转）
   disabled: boolean; // 是否禁用菜单
   order: number; // 菜单排序
   keepAlive: boolean; // 是否缓存页面

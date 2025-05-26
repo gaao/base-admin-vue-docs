@@ -15,7 +15,7 @@ const login = async (req, res) => {
     (u) => u.account === account && u.password === password
   );
 
-  console.log("登录", account, password, user);
+  // console.log("登录", account, password, user);
   if (user) {
     const loginResponse = db.login[user.account];
     res.jsonp({

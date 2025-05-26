@@ -64,25 +64,58 @@
     ],
     "menus": [
         {
-            "id": 1,
-            "name": "Dashboard",
-            "path": "/dashboard",
-            "icon": "dashboard",
-            "parentId": 0
-        },
-        {
             "id": 2,
-            "name": "用户管理",
+            "name": "user",
             "path": "/user",
-            "icon": "user",
+            "meta": {
+                "title": "接口获取的菜单",
+                "show": true,
+                "icon": "HomeOutlined",
+                "order": 11
+            },
             "parentId": 0
         },
         {
-            "id": 3,
-            "name": "角色管理",
+            "id": 4,
+            "component": "role",
+            "name": "Role",
             "path": "/role",
-            "icon": "team",
-            "parentId": 0
+            "meta": {
+                "title": "角色（admin菜单）",
+                "show": true,
+                "icon": "HomeOutlined",
+                "order": 12
+            },
+            "parentId": 2
+        },
+        {
+            "id": 5,
+            "component": "user",
+            "name": "User",
+            "path": "/user",
+            "meta": {
+                "title": "用户管理",
+                "show": true,
+                "icon": "HomeOutlined",
+                "order": 12
+            },
+            "parentId": 2
+        },
+        
+        {
+            "id": 6,
+            "component": "href",
+            "name": "Href",
+            "path": "/href",
+            "meta": {
+                "title": "外链",
+                "show": true,
+                "icon": "HomeOutlined",
+                "order": 13,
+                "href": "//baidu.com",
+                "keepAlive": false
+            },
+            "parentId": 2
         }
     ],
     "roles": [

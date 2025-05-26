@@ -21,8 +21,19 @@
 - 子路由：如果该路由有子路由，子路由也会在该文件中定义。
 
 路由定义文件的命名规范为 `moduleName.ts`，其中 `moduleName` 为模块名称。例如，`user.ts` 表示用户模块的路由定义。
+## 自动化配置路由
 
-## 路由配置
+本项目使用 `vite-plugin-pages` 插件自动配置路由，无需手动配置路由。插件会自动扫描 `src/views` 目录下的文件，生成路由配置。
+
+```typescript
+const routes = [
+  ...coreRoutes, // 核心路由
+  ...externalRoutes, // 外部路由
+  ...errPageRoutes, // 错误相关的路由
+];
+```
+
+## 路由模式
 
 路由配置位于 `index.ts` 文件中，用于配置路由的基本信息，如路由模式、路由守卫等。路由配置文件的内容如下：
 ```ts
@@ -36,7 +47,7 @@ const router = createRouter({
 
 export default router
 ```
-路由配置文件中，`createRouter` 函数用于创建路由实例，`createWebHistory` 函数用于创建路由模式为 `history` 的实例。`routes` 变量用于导入路由定义。
+路由配置文件中，`createRouter` 函数用于创建路由实例，`createWebHistory` 函数用于创建路由模式为 `history` 的实例。本项目使用 `history` 模式，即 URL 中不包含 `#` 符号。`routes` 变量用于导入路由定义。
 
 ## 路由守卫
 
